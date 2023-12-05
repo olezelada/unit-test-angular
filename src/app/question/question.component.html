@@ -1,0 +1,8 @@
+<div>
+  <h1>{{title}}</h1>
+  <p> Do you a subscriber ?</p>
+  <div class="buttons">
+    <button [disabled]="disableButtons" (click)="markResponse(true)" class="btn btn-yes"> Yes, :)</button>
+    <button [disabled]="disableButtons" (click)="markResponse(false)" class="btn btn-no"> No, :(</button>
+  </div>
+</div>
